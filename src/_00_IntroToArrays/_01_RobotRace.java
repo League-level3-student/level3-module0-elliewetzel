@@ -34,6 +34,11 @@ public class _01_RobotRace {
 		}
 	}
 	}
+	
+	int r = bot.length-1;
+	System.out.println(r);
+	bot[r].move(5);
+	
 	}
 		//2. create an array of 5 robots.
 		//3. use a for loop to initialize the robots.
